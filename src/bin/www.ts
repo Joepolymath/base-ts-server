@@ -12,7 +12,7 @@ const app = new App([
   //   new AuthController(),
 ]);
 
-const debug = debugLib('congreGate:server');
+const debug = debugLib('<project-name>:server');
 
 connectDb(DB_URI);
 
