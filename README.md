@@ -2,7 +2,7 @@
 
 ## Installation
 
-To get started with AWAROME, follow these steps:
+To get started with \<project-name>, follow these steps:
 
 1. Clone the repository using Git:
 
