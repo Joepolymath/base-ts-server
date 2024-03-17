@@ -29,7 +29,7 @@ To get started with \<project-name>, follow these steps:
 
 ## Usage
 
-To run the AWAROME server in dev mode, use the following command:
+To run the server in dev mode, use the following command:
 
 ```bash
 pnpm dev
