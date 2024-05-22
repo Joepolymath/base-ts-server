@@ -7,4 +7,10 @@ export interface IEnv {
   SEND_CHAMP_API_KEY: string;
   SEND_CHAMP_URL: string;
   JWT_SECRET: string;
+  PG_USERNAME: string;
+  PG_DB: string;
+  PG_PASSWORD: string;
+  PG_HOST: string;
+  PG_TYPE: string;
+  PG_PORT: string;
 }

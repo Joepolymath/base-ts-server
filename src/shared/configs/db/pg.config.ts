@@ -1,14 +1,21 @@
 import { DataSource } from 'typeorm';
 import logger from '../logs.config';
 import { User } from '../../../modules/users/dataAccess/entities/user.entity';
+import {
+  PG_DB,
+  PG_HOST,
+  PG_PASSWORD,
+  PG_PORT,
+  PG_USERNAME,
+} from '../env.config';
 
 export const AppDataSource = new DataSource({
   type: 'postgres',
-  host: 'localhost',
-  port: 5432,
-  username: 'equally-db-user',
-  password: '',
-  database: 'equally-dev',
+  host: PG_HOST,
+  port: Number(PG_PORT),
+  username: PG_USERNAME,
+  password: PG_PASSWORD,
+  database: PG_DB,
   synchronize: true,
   logging: false,
   entities: [User],
