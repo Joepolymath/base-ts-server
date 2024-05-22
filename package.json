@@ -35,9 +35,12 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.1",
     "morgan": "^1.10.0",
+    "pg": "^8.11.5",
     "preview-email": "^3.0.19",
     "protoc-gen-ts": "^0.8.7",
+    "reflect-metadata": "^0.2.2",
     "rimraf": "^5.0.5",
+    "typeorm": "^0.3.20",
     "winston": "^3.11.0"
   },
   "devDependencies": {
@@ -56,6 +59,7 @@
     "@types/mocha": "^10.0.6",
     "@types/module-alias": "^2.0.4",
     "@types/morgan": "^1.9.9",
+    "@types/node": "^20.12.12",
     "@types/preview-email": "^3.0.4",
     "@types/sinon": "^17.0.3",
     "@types/supertest": "^6.0.2",
