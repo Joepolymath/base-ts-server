@@ -10,9 +10,11 @@ import App from '../app';
 import connectMongoDb from '../shared/configs/db/mongo.config';
 import connectPgDb from '../shared/configs/db/pg.config';
 import DatabaseFactory from '../shared/configs/db';
+import UserController from '../modules/users/controllers';
 
 const app = new App([
   //   new AuthController(),
+  new UserController(),
 ]);
 
 const debug = debugLib('<project-name>:server');
